@@ -32,7 +32,7 @@ public class AccountController(UserManager<AppUser> userManager, RoleManager<App
     }
 
     [HttpPost("login")]
-    public async Task<ActionResult<string>> LoginUser(LoginDto loginDto)
+    public async Task<ActionResult<UserDto>> LoginUser(LoginDto loginDto)
     {
         var user = await _userManager.Users.SingleOrDefaultAsync(x => x.UserName.Equals(loginDto.Username.ToLower()));
 
@@ -42,7 +42,14 @@ public class AccountController(UserManager<AppUser> userManager, RoleManager<App
 
         if(!result) return Unauthorized("Invalid email or password!");
 
-        return await _tokenService.CreateToken(user);
+        var response = new UserDto
+        {
+            Username = user.UserName,
+            Email = user.Email,
+            Token = await _tokenService.CreateToken(user)
+        };
+        
+        return Ok(response);
     }
 
     private async Task<bool> UserExists(string email)
