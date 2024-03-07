@@ -49,3 +49,4 @@ msbuild.err
 msbuild.wrn
 
 FlatRent/appsettings.json
+FlatRent/flatrent.db
