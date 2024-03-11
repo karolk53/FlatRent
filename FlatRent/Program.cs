@@ -1,5 +1,6 @@
 using System.Text;
 using FlatRent.Data;
+using FlatRent.Data.Repositories;
 using FlatRent.Entities;
 using FlatRent.Interfaces;
 using FlatRent.Services;
@@ -34,6 +35,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ValidateAudience = false
     });
 
+builder.Services.AddScoped<IFlatRepository, IFlatRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
