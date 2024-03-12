@@ -15,5 +15,11 @@ public class FlatsController : BaseApiController
     {
         return null;
     }
+
+    [HttpPost]
+    public async Task<ActionResult> AddNewFlat()
+    {
+        return null;
+    }
     
 }
