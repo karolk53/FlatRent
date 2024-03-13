@@ -1,6 +1,6 @@
 ﻿namespace FlatRent.Entities;
 
-public class Flat
+public class Flat : Property
 {
     public int Id { get; set; }
     
