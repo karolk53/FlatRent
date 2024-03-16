@@ -17,23 +17,23 @@ cooming soon
 
 ### Components
 - [x] Setup backend project
-- [] Setup frontend project
+- [ ] Setup frontend project
 
 ### Auth
 - [x] Authentication and authrozization (backend)
-- [] Create view for login and register 
+- [ ] Create view for login and register 
 
 ### Property
-- [] Create endpoints to handle basic operations for properties
-- [] Add filters to property list (backend)
-- [] Create view for property list with filters
+- [ ] Create endpoints to handle basic operations for properties
+- [ ] Add filters to property list (backend)
+- [ ] Create view for property list with filters
 
 ### Chat
-- [] Chat implementation on backend (hubs)
-- [] Create view for group chat
+- [ ] Chat implementation on backend (hubs)
+- [ ] Create view for group chat
 
 ### Others
-- [] Create main view
+- [ ] Create main view
 
 
 ## Instalation
