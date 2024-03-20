@@ -20,10 +20,12 @@ cooming soon
 - [ ] Setup frontend project
 
 ### Auth
+- [x] Create user and role entities
 - [x] Authentication and authrozization (backend)
 - [ ] Create view for login and register 
 
 ### Property
+- [X] Create entity classes for properties
 - [ ] Create endpoints to handle basic operations for properties
 - [ ] Add filters to property list (backend)
 - [ ] Create view for property list with filters
@@ -34,6 +36,7 @@ cooming soon
 
 ### Others
 - [ ] Create main view
+- [ ] Seed basic data of roles
 
 ## Database
 
