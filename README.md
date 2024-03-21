@@ -43,6 +43,3 @@ cooming soon
 Here is my illustrative database schema, but for now Im not proud of it. It will be better some day I hope.
 
 ![alt text](https://github.com/karolk53/FlatRent/blob/database/db_project.jpg?raw=true)
-
-## Instalation
-cooming soon
