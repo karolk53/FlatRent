@@ -10,9 +10,6 @@ I decied to create this app mainly to improve my skills in .NET technology. On t
 - Pay for the flat online
 - Chat with your tenants
 
-## Technologies
-cooming soon
-
 ## TODO
 
 ### Components
