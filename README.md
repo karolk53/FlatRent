@@ -9,6 +9,7 @@ I decied to create this app mainly to improve my skills in .NET technology. On t
 - Rent a property completly online
 - Pay for the property online
 - Chat with your tenants
+- Send email to discuss about the price 
 
 ## TODO
 
