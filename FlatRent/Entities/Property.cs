@@ -16,4 +16,7 @@ public class Property
     public AppUser OwnerId { get; set; }
 
     public ICollection<AppUser> Tenants { get; set; }
+
+    public FlatDetails FlatDetails { get; set; }
+    public HouseDetails HouseDetails { get; set; }
 }
