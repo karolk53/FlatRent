@@ -6,12 +6,10 @@ I decied to create this app mainly to improve my skills in .NET technology. On t
 
 - Adding an advertisement
 - View advertisements
-- Rent a flat completly online
-- Pay for the flat online
+- Rent a property completly online
+- Pay for the property online
 - Chat with your tenants
-
-## Technologies
-cooming soon
+- Send email to discuss about the price 
 
 ## TODO
 
