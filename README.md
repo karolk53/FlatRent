@@ -1,12 +1,12 @@
 # FlatRent
 ## Web application supporting the flat rental process
-I decied to create this app mainly to improve my skills in .NET technology. On the other hand, there is potential in my mind for something more than just a 'training application', but we will see soon ... :grinning:
+I decide to create this app mainly to improve my skills in .NET technology. On the other hand, there is potential in my mind for something more than just a 'training application', but we will see soon ... :grinning:
 
 ## Features
 
 - Adding an advertisement
 - View advertisements
-- Rent a property completly online
+- Rent a property completely online
 - Pay for the property online
 - Chat with your tenants
 - Send email to discuss about the price 
@@ -19,7 +19,7 @@ I decied to create this app mainly to improve my skills in .NET technology. On t
 
 ### Auth
 - [x] Create user and role entities
-- [x] Authentication and authrozization (backend)
+- [x] Authentication and authorization (backend)
 - [ ] Create view for login and register 
 
 ### Property
